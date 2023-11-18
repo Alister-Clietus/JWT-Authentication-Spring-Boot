@@ -1,0 +1,12 @@
+package com.jwt.SecurityJWT.DTO;
+
+public class JwtResponse {
+
+    private final String token;
+
+    public JwtResponse(String token) {
+        this.token = token;
+    }
+
+    
+}
